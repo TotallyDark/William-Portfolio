@@ -6,7 +6,7 @@ import './FrontPage.css'
 const FrontPage = () => {
   return (
     <div className='frontPage-container'>
-        <video src='./videos/video-4.mp4' autoPlay loop muted/>
+        <video src='./William-Portfolio/videos/video-4.mp4' autoPlay loop muted/>
         <h1>Hi! I'm William Nie! </h1>
         <p>Welcome to my site!</p>
         <span class="auto-type"> </span>
