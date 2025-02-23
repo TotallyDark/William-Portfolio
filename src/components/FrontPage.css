@@ -10,11 +10,11 @@ video {
 .frontPage-container {
     /*background: url('/public/images/img-home.jpg') center center/cover
     no-repeat;*/
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
     object-fit: contain;
     justify-content: center;
 }
@@ -38,6 +38,11 @@ video {
 
 .frontPage-btns .btn {
     margin: 6px;
+}
+
+.frontPage-container > img {
+    height: 50%;
+    align-self: end;
 }
 
 @media screen and (max-width: 960px) {

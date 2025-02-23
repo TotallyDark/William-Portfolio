@@ -34,14 +34,24 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}> 
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <div className='nav-links' onClick={() => {
+                  const element = document.getElementById('home');
+                  element?.scrollIntoView({
+                    behavior:'smooth'
+                  })
+                }}>
                   Home
-                </Link>
+                </div>
               </li>
               <li className='nav-item'>
-                <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                <div className='nav-links' onClick={() => {
+                  const element = document.getElementById('test');
+                  element?.scrollIntoView({
+                    behavior:'smooth'
+                  })
+                }}>
                   Projects
-                </Link>
+                </div>
               </li>
               <li className='nav-item'>
                 <Link to='/blogs' className='nav-links' onClick={closeMobileMenu}>

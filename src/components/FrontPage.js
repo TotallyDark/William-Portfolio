@@ -5,14 +5,17 @@ import './FrontPage.css'
 
 const FrontPage = () => {
   return (
-    <div className='frontPage-container'>
+    <div className='frontPage-container' id="home">
         <video src='./William-Portfolio/videos/video-4.mp4' autoPlay loop muted style={{ WebkitMediaControls: 'display(none)' }}/>
+      
         <h1>Hi! I'm William Nie! </h1>
         <p>Welcome to my site!</p>
         <span class="auto-type"> </span>
+        
         <div className='frontPage-btns'>
             <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Check out who I am!</Button>
         </div>
+       
     </div>
   )
 }
